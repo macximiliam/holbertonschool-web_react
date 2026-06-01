@@ -1,0 +1,27 @@
+{
+  "name": "typescript-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack serve --mode development --config ./webpack.config.js",
+    "start-worker": "webpack serve --mode development --config ./webpack.config.js",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@types/jest": "^24.9.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "fork-ts-checker-webpack-plugin": "^9.1.0",
+    "html-webpack-plugin": "^5.6.7",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
